@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header h1 {
+    margin: 0px;
+}
+
+.header-links ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section {
+    height: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
